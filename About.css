@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    Background: linear-gradient(to bottom right, rgba(0, 42, 87,.5),rgba(154, 86, 206,.5),rgba(215, 109, 131,.5),rgba(255, 255, 255,.5)  ),url("lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+.buttons{
+    display: flex;
+    gap: 60px;
+}
+.buttons div{
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.buttons div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 200px;
+    margin-top: 3%;
+    color: white;
+    
+}
+header{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+p{
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-size: 15px;
+}
+.about {
+  background: radial-gradient(rgba(0, 0, 0, 0.1),rgba(255, 255, 255, 0.3));
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+}
+.btn1{
+    display: inline;
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid rgb(201, 80, 175);
+    background:conic-gradient(#d76d83 15%,#9a56ce,#d9d9d9, #002a57, #d76d83  );
+    color: #ffffff;
+    font-weight: bold;
+    margin: auto;
+}
+.btn1:hover{
+    transform: scale(1.1);
+            cursor: pointer;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+}

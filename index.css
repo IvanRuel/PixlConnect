@@ -1,0 +1,123 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    background-image:url("lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup-container{
+    background: radial-gradient(rgba(0, 0, 0, 0.1),rgba(158, 158, 158, 0.4));
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0.2);
+    text-align: center;
+    width: 500px;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+}
+
+.divider{
+    width: 60%;
+    padding: 5px;
+    margin: auto;   
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.divider span::before,
+.divider span::after{
+    content: "";
+    display: inline-block;
+    width: 80px;
+    height: 2px;
+    margin: 0 5px;
+    vertical-align: middle;
+    background-color: rgb(255, 255, 255);
+}
+.btn{
+    width: 200px;
+    padding: 10px;
+    margin: 5px 1px;
+    border-radius: 50px;
+    border: 2px solid rgb(70, 105, 186);
+    background-color: rgb(60, 96, 163);
+    color: #ffffff;
+}
+.btn:hover{
+    transform: scale(1.1);
+            cursor: pointer;
+
+}
+.btn2{
+    width: 200px;
+    padding: 10px;
+    margin: 5px 1px;
+    border-radius: 50px;
+    border: 2px solid rgb(45, 72, 136);
+    background-color: rgb(53, 124, 255);
+    color: #ffffff;
+}
+.btn2:hover{
+    transform: scale(1.1);
+            cursor: pointer;
+
+}
+.input1{
+    width: 200px;
+    padding: 5px;
+    margin: auto;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.input2{
+    width: 80px;
+    padding: 5px;
+    margin: 5px 5px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    align-content: center;
+}
+label{
+    color: #ffffff;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.buttons div{
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    
+}
+.buttons div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    gap: 40px;
+    margin-top: 3%;
+    color: white;
+    
+}
+p{
+    color: #2ad3d3;
+    font-size: 15px;
+    text-align: justify;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+}
