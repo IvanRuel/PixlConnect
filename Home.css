@@ -23,7 +23,7 @@ body{
     backdrop-filter: blur(2px);
 }
 .gif-animation{
-    background-image:url("landing page.gif");
+    background-image:url("landing page.mp4");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
