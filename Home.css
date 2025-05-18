@@ -23,14 +23,23 @@ body{
     backdrop-filter: blur(2px);
 }
 .gif-animation{
-    background-image:url("landing page.mp4");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     align-content: right;
-    max-height: 100vh;
+    height: 100%;
     width: 45vw;
+    overflow: hidden;
     border-radius: 20px;
+}
+.gif-animation video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
 }
 .download{
     background: radial-gradient(rgba(0, 0, 0, 0.3),rgba(224, 224, 224, 0.4));
