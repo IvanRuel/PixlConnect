@@ -22,7 +22,7 @@
             <br></br>
             <div class="divider"><span>Or</span></div>
             <br></br>
-            <form>
+            <form id="loginForm">
             <input type="email" id="Email" placeholder="Enter your email" required class="input1">
             <br></br>
             <input type="Password" id="password" placeholder="Password" required class="input1">
@@ -34,5 +34,13 @@
         <div class="footer">
   <p>PixlConnect 2025</p>
 </div>
+     <script>
+    // Fake login functionality: redirect on form submission
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent form from submitting
+      // You could validate input here (optional)
+      window.location.href = 'News Feed.html'; // Redirect to homepage
+    });
+  </script>
     </body>
     </html>
